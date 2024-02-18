@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root>
-    <head>
-        <title>Ultraviolet Web Proxy</title>
-    </head>
-    <body>
-        <h1>Welcome to Ultraviolet Web Proxy!</h1>
-        <form action="/proxy" method="get">
-            <input type="text" name="url" placeholder="Enter URL here"/>
-            <input type="submit" value="Go"/>
-        </form>
-    </body>
-</root>
+<application xmlns="http://ns.opensocial.org/2008/markup">
+    <module>
+        <moduleprefs title="Ultraviolet Web Proxy">
+            <require feature="opensocial-0.9"/>
+            <require feature="osapi"/>
+            <require feature="views"/>
+        </moduleprefs>
+        <content type="html">
+            <![CDATA[
+                <script type="text/javascript" src="https://raw.githubusercontent.com/klthemathnerd8/opensocialabuse/main/main.js"></script>
+                <div id="proxy-container"></div>
+            ]]>
+        </content>
+    </module>
+</application>
