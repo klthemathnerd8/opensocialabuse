@@ -1,7 +1,7 @@
 {
-    "name": "ultraviolet-web-proxy",
+    "name": "uvoxy",
     "version": "1.0.0",
-    "description": "A web proxy based on Ultraviolet by TitaniumNetwork",
+    "description": "hi",
     "main": "proxy.js",
     "scripts": {
         "start": "node proxy.js"
