@@ -1,0 +1,13 @@
+{
+    "name": "ultraviolet-web-proxy",
+    "version": "1.0.0",
+    "description": "A web proxy based on Ultraviolet by TitaniumNetwork",
+    "main": "proxy.js",
+    "scripts": {
+        "start": "node proxy.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "request": "^2.88.2"
+    }
+}
