@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <head>
+        <title>Ultraviolet Web Proxy</title>
+    </head>
+    <body>
+        <h1>Welcome to Ultraviolet Web Proxy!</h1>
+        <form action="/proxy" method="get">
+            <input type="text" name="url" placeholder="Enter URL here"/>
+            <input type="submit" value="Go"/>
+        </form>
+    </body>
+</root>
